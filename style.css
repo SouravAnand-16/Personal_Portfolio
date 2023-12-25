@@ -146,7 +146,7 @@ section{
 .text p{
     font-weight: 600;
 }
-.p1{
+.p2{
     text-align: center;
     margin-bottom: 1rem;
     font-size: 1.75rem;
@@ -179,6 +179,9 @@ section{
 .btn{
     font-weight: 600;
     transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
 }
 .btn-color-1, .btn-color-2{
     border: rgb(53, 53, 53) 0.1rem solid;
@@ -193,5 +196,14 @@ section{
 }
 .btn-color-1:hover{
     background: rgb(0, 0, 0);
+}
+.btn-color-2{
+    background: none;
+}
+.btn-color-2:hover{
+    border: rgb(255, 255, 255) 0.1rem solid;
+}
+.btn-container{
+    gap: 1rem;
 }
 
