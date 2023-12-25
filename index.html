@@ -8,10 +8,9 @@
     <link rel="stylesheet" href="/mediaqueries.css"> 
 </head>
 <body>
-    <script src="/script.js"></script>
-
+   
     <nav id="desktop-nav">
-        <div class="logo">John Doe</div>
+        <div class="logo">Sourav Anand</div>
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
@@ -23,7 +22,7 @@
     </nav>
 
     <nav id="humberg-nav">
-        <div class="logo">John Doe</div>
+        <div class="logo">Sourav Anand</div>
         <div class="humberg-menu">
             <div class="humberg-icon" onclick="toggleMenu()">
                 <span></span>
@@ -38,5 +37,29 @@
             </div>
         </div>
     </nav>
+
+    <section id="profile">
+        <div class="pic-container">
+            <img src="./assests/pic.PNG" alt="">
+        </div>
+        <div class="text">
+            <p class="p1">Hello, I'm</p>
+            <h1 class="title">Sourav Anand</h1>
+            <p class="p2">Full Stack Web Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assests/resume-example.pdf')">
+                    Download CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                   Contact Info
+                </button>
+            </div>
+            <div id="social-container">
+                <img src="./assests/linkedin.png" alt="my linkedln" class="icon" onclick="location.href='https://www.linkedin.com/in/sourav-anand-502694249/'">
+                <img src="./assests/github.png" alt="my Github" class="icon" onclick="location.href='https://github.com/SouravAnand-16'">
+            </div>
+        </div>
+    </section>
+    <script src="/script.js"></script>
 </body>
 </html>
