@@ -380,13 +380,23 @@ article .icon{
     height: 3rem;
 }
 
+/*GITHUB */
+
+#github div {
+    display: flex;
+    justify-content: space-around; 
+    gap: 20px; 
+  }
+  
+  #github img {
+    max-width: 30%; 
+    height: auto; 
+  }
+  
+  #github-stats-title {
+    text-align: center;
+  }
+  
+
 /*FOOTER */
 
-footer {
-    height: 26vh;
-    margin: 0 1rem;
-}
-
-footer p {
-    text-align: center;
-}
